@@ -1,5 +1,6 @@
 <h2><u>DISCLAIMER</u></h2><br>
-<h3>This tool is created for educational purposes.Please use responsibly. I will NOT be held liable if any damages caused due to misuse of this tool.</h3><br>
+<h3>This tool is created for educational purposes. Please use responsibly. 
+I will NOT be held liable if any damages are caused due to misuse of this tool.</h3><br>
 <h2><u>Description</u>-></h2><br>
 				<h5> This is a windows backdoor program which when run on a victim computer is capable of several actions including:
 				  <ul>

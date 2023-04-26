@@ -23,4 +23,4 @@ The payload can be delivered to the victim computer either as just an executable
 <br><br>
 To compile the backdoor , you can compile it directly on a windows machine through mingw. If you are on linux , then install mingw on your system and compile it using the command-
 <br><br>
-&emsp;&emsp;&emsp; i686-w64-mingw32-gcc -o backdoor.exe backdoor.c
+&emsp;&emsp;&emsp; i686-w64-mingw32-gcc -o backdoor.exe backdoor.c -lwininet -lwsock32

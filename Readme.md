@@ -1,4 +1,4 @@
-<h2><u>DISCLAIMER</u></h2><br>
+<h1><u>DISCLAIMER</u></h1><br>
 <h3>This tool is created for educational purposes. Please use responsibly. 
 I will NOT be held liable if any damages are caused due to misuse of this tool.</h3><br>
 <h2><u>Description</u>-></h2><br>
@@ -29,3 +29,11 @@ To compile the backdoor , you can compile it directly on a windows machine throu
 &emsp;&emsp;&emsp; i686-w64-mingw32-gcc -o backdoor.exe backdoor.c -lwininet -lwsock32
 <br><br>
 Also remember to change the IP Address in the backdoor.c file to your PC's IP before compiling.
+
+<br>
+<br>
+<h2><u>TO-DO</u>-></h2>
+<br>
+<br>
+<h5><ul><li>Prevent detection of Backdoor by antivirus</li>
+<li>Embed the backdoor with a jpeg file or some document like PDF files</li></ul></h5>

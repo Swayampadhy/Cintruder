@@ -15,11 +15,11 @@ The payload can be delivered to the victim computer either as just an executable
 <h5>This malware works on a client-server architecture.The server issues commands remotely to the backdoor .The backdoor is the client which receives these commands, executes them and sends the output back to the server . The backdoor tries to connect to the server every 10 seconds .</h5><br><br>
 <h2><u>Commands</u> -></h2><br>
 <h5>The server specific commands for the backdoor are:<ul>
-  <li>1. **persist**: This command will create an entry in the windows registry which will boot the malware on startup.In order to remove persistance of the backdoor, go to windows registry and remove the entry at the path which is prompted on the command line after the command.</li>
+  <li>1. persist: This command will create an entry in the windows registry which will boot the malware on startup.In order to remove persistance of the backdoor, go to windows registry and remove the entry at the path which is prompted on the command line after the command.</li>
 	
-  <li>2. **keylog_start**: This command will start the inbuilt Keylogger of the backdoor. The keystroke data is stored locally on "windows.txt" on the same folder as the backdoor.</li>
+  <li>2. keylog_start: This command will start the inbuilt Keylogger of the backdoor. The keystroke data is stored locally on "windows.txt" on the same folder as the backdoor.</li>
   
-  <li>3. **cd**: This command will switch directories while inside a program.</li>
+  <li>3. cd: This command will switch directories while inside a program.</li>
   
 </ul></h5><br>
 <h2><u>Compilation</u> -></h2><br>To compile the server go the the folder containing the file server.c . There enter the following command-

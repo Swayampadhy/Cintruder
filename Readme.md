@@ -22,7 +22,7 @@ The payload can be delivered to the victim computer either as just an executable
   <li>3. cd: This command will switch directories while inside a program.</li>
   
 </ul></h5><br>
-<h2><u>Compilation</u> -></h2><br>To compile the server go the the folder containing the file <br>server.c<br> . There enter the following command-
+<h2><u>Compilation</u> -></h2><br>To compile the server go the the folder containing the file <b>server.c</b> . There enter the following command-
 <br>
 <br>
 &emsp;&emsp;&emsp; gcc -o server server.c
@@ -31,4 +31,4 @@ To compile the backdoor , you can compile it directly on a windows machine throu
 <br><br>
 &emsp;&emsp;&emsp; i686-w64-mingw32-gcc -o backdoor.exe backdoor.c -lwininet -lwsock32
 <br><br>
-Also remember to change the IP Address in the **backdoor.c** file to your PC's IP before compiling.
+Also remember to change the IP Address in the <b>backdoor.c</b> file to your PC's IP before compiling.

@@ -26,8 +26,8 @@ int main()
 	}
 
 	server_address.sin_family = AF_INET;
-	server_address.sin_addr.s_addr = inet_addr("172.20.10.3");
-	server_address.sin_port = htons(50005);
+	server_address.sin_addr.s_addr = inet_addr("0.0.0.0");
+	server_address.sin_port = htons(7777);
 
 	bind(sock, (struct sockaddr *) &server_address, sizeof(server_address));
 	listen(sock, 5);
